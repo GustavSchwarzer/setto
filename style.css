@@ -1,43 +1,16 @@
 .navbar{
-    
-    height: 110px;
-    
-    
-    
-    
+    height: 110px;    
 }
 
-#carouselExampleInterval{
-    margin-top: 5px;
-    
-    width:100%;
-    height: 60vh; 
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 400px;
-
-}
-
-#carouselExampleInterval img{
-    width: 100%;
-    height:500px;
-    
-    
-}  
-#carouselExampleInterval h1{
-    text-align: center;
-    margin-top: 70px;
-    color: #ebdc0e;
-    
-} 
-    
-.carousel-item{
-    min-height: 80vh;
+.c-item{
+    height: 480px;
+    }
+.c-img{
     height: 100%;
-    background: #03D25F;
-    background: url('./Img/bkground-crousel.webp');
-}
+    object-fit: cover;
+    filter: brightness(0.6);
+    }
+
 .servicos{
     margin-top: 70px;
     text-align: center;
